@@ -1,0 +1,154 @@
+.flexbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-top: 0em;
+    /* padding-left: 5em;
+padding-right: 5em;  */
+    flex-wrap: wrap;
+}
+body{
+    /* overflow: hidden; */
+    background-color: #333333;
+    z-index: 99;
+}
+
+.form-title {
+    font-family: 'Nunito', sans-serif;
+    color: #7f66d8;
+    font-weight: 1000;
+}
+
+.head-container {
+    display: flex;
+    padding-right: 12em;
+    justify-content: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=password],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+#error_name {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error_age {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error_email {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error_phone {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error_city {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error_password {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error_rollno {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+#error_rnumber{
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+#error_lname{
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    font-family: 'Nunito', sans-serif;
+}
+.labels {
+    font-family: 'Nunito', sans-serif;
+}
+
+.radios {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+input[type=button] {
+    margin-top: 1em;
+    margin-right: 3em;
+    margin-left: 3em;
+    width: 10em;
+    background-color: #7f66d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+input[type=button]:hover {
+    background-color: #f2f2f2;
+    color: #7f66d8;
+}
+
+.register {
+    flex: none;
+    width: 450px;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 1.8em;
+    font-weight: 600;
+}
+
+.container-image {
+    border-radius: 5px;
+    margin-top: -50px;
+}
